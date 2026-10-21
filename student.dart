@@ -1,12 +1,17 @@
 class Student {
+  //public fields
   final String studentID;
   final String name;
   final String program;
 
+  //private field
   final Map<String, double> _grades = {};
+  //constructor
   Student(this.studentID, this.name, this.program);
+  //getter  
   Map<String, double> get grades => Map.unmodifiable(_grades);
 
+  //adding of grades with validation
   void addGrade(String subject, double grade) {
     if (grade < 0 || grade > 100) {
       print('Invalid grade for $subject. Must be 0-100.');
@@ -16,6 +21,7 @@ class Student {
     print('$name: $subject = $grade recorded.');
   }
 
+  //remove grades
   void removeGrade(String subject) {
     if (_grades.remove(subject) != null) {
       print('$name: $subject removed.');
@@ -24,6 +30,7 @@ class Student {
     }
   }
 
+  //compute average
   double computeAverage() {
     if (_grades.isEmpty) return 0;
     double sum = 0;
