@@ -1,0 +1,16 @@
+Jeslyn Kyl Sesma: Mobile Development = 90 recorded.
+Jeslyn Kyl Sesma: Integrative Programming & Technologie = 89 recorded.
+Invalid grade for Ethics. Must be 0-100.
+Jeslyn Kyl Sesma: no grade found for Life & Works of Rizal.
+Juan Dela Cruz: Mobile Development = 85 recorded.
+Juan Dela Cruz: Integrative Programming & Technologies = 80 recorded.
+
+ ==== SECTION REPORT ====
+--- Jeslyn Kyl Sesma (2026-0001) | BSIT ---
+ Mobile Development: 90
+ Integrative Programming & Technologie: 89
+ Average: 89.50 = Passed
+--- Juan Dela Cruz (2026-0002) | BSIT ---
+ Mobile Development: 85
+ Integrative Programming & Technologies: 80
+ Average: 82.50 = Passed
